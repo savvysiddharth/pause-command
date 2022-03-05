@@ -18,12 +18,12 @@ You can pass any string of your choice after `pause` as an command line argument
 
 Command:
 ```
-pause "Please do something and press enter.."
+pause "Pausing the execution, do something.."
 ```
 
 Output:
 ```
-Please do something and press enter..
+Pausing the execution, do something..
 ```
 
 This will pause the execution, displays the given message and waits till user presses Enter key.
@@ -48,3 +48,5 @@ This can be used in shell scripts as follows:
 pause "Do some manual intervention.."
 # Peform next tasks with script
 ```
+
+This will also support C/C++ programs that uses `system("pause");` statements.
