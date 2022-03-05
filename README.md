@@ -9,6 +9,8 @@ I missed this command in Linux. Though there is already `read -p` command to do 
 Assuming `~/.local/bin` is in your environment PATH variable.
 
 ```
+git clone git@github.com:savvysiddharth/pause-command.git
+cd pause-command
 make install
 ```
 
