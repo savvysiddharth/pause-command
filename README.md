@@ -14,11 +14,17 @@ sudo make install
 
 ### Running the command :
 
-You can pass any string of your choice after `pause` as an command line argument.
+You can pass any string of your choice after `pause` as an command line argument in any of three ways mentioned below.
 
 Command:
 ```
 pause "Pausing the execution, do something.."
+```
+```
+pause 'Pausing the execution, do something..'
+```
+```
+pause Pausing the execution, do something..
 ```
 
 Output:
@@ -26,7 +32,7 @@ Output:
 Pausing the execution, do something..
 ```
 
-This will pause the execution, displays the given message and waits till user presses Enter key.
+This will pause the execution, displays the given message and waits till user presses `Enter` key.
 
 You can also use this command without any argument. In this case it will print a default string to the terminal.
 
